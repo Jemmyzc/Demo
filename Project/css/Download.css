@@ -1,0 +1,58 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-image: url(../img/Download/background_05.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	font-family: "黑体";
+	box-sizing: border-box;
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+#return{
+	height: 100px;
+	width: 100px;
+	position: relative;
+	margin-top:6.5%;
+	left: 3%;
+}
+section{
+	width: 90%;
+	margin:15% 5%;
+	position: relative;
+}
+section img{
+	width: 100%;
+	height: 100%;
+}
+#img1,#img2{
+	padding-top: 5%;
+}
+footer{
+	width: 90%;
+	margin: 15% 5%;
+	position: relative;
+}
+footer textarea{
+	margin-top: 3%;
+	margin-left: 3%;
+	color: #FDDE9B;
+	font-size:1.25em;
+}
+textarea{
+	border:2px solid #FDDE9B;
+	border-radius: 3%;
+	text-indent: 0em;
+	padding-top: 3%;
+	padding-left: 3%;
+}
+#kefu{
+	width: 160px;
+	height: 160px;
+	position: relative;
+	margin-top: 12%;
+	margin-left: 75%;
+}

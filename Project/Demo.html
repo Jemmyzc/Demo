@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>样本绑定</title>
+	<meta charset="utf-8">
+	<!-- <meta name="viewport" content="width=device-width, height=device-height, inital-scale=1.0, maximum-scale=1.0, user-scaleable=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chorme=1"> -->
+    <script src="libs\jquery-3.3.1.js"></script>
+    <link rel="stylesheet" type="text/css" href="css\css1.css">
+</head>
+<body>
+	<div id="center_text">
+			<input type="text" name="name" placeholder="请输入姓名" class="input_1">
+			<input type="number" name="telephone" placeholder="请输入手机号" id="input2" class="input_2">
+			<input type="number" name="demo_code" placeholder="请输入样品编码" id="input3" class="input_3">
+			<a href=""><img src="img\saoyisao.png" alt=saoyisai></a>
+			
+	</div>
+		<p id="p">您输入的手机号格式有误，请重新输入</p>
+	<label>
+				<input type="checkbox" name="radiobutton">我已阅读并同意该站的<a href="">《知情同意书》</a>
+	</label>
+	<div></div>
+	<img src="img\Sign_in.png" id="Sign_in">
+</body>
+<script>
+	$(document).ready(function(){
+		$("#input2").blur(function(){
+            var len=$(this).val().length;
+            if(len!==11){
+            	$("#p").show();
+            }
+            else if(len==11){
+            	$("#p").hide();
+            }
+		})
+	})
+</script>
+</html>

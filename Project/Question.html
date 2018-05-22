@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Question</title>
+	<script src="libs\jquery-3.3.1.js"></script>
+    <link rel="stylesheet" type="text/css" href="css\Question.css">
+    <meta charset="utf-8">
+</head>
+<body>
+	<header>
+		<span>
+			<a href="">
+				<img src="img/question/guanbi_03.png">
+			</a>
+			<img src="img/question/diaocha_03.png" id="img">
+		</span>
+	</header>
+	<section>
+		<img src="img/question/jindutiao_03.png">
+		<div id="div">
+			<article>
+				<span>1.问题一</span>
+				<div>A.选项一</div>
+				<div>B.选项二</div>
+				<div>C.选项三</div>
+				<div>D.选项四</div>	
+			</article>
+		</div>
+		<div id="div">
+			<article>
+				<span>2.问题二</span>
+				<div>A.选项一</div>
+				<div>B.选项二</div>
+				<div>C.选项三</div>
+				<div>D.选项四</div>	
+			</article>
+		</div>
+	</section>
+</body>
+<script>
+	$(document).ready(function(){
+		$("article div").click(function(){
+			$(this).addClass("xuanzhong").siblings("div").removeClass("xuanzhong");
+		})
+	})
+</script>
+</html>

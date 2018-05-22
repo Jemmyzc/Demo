@@ -1,0 +1,94 @@
+*{
+	margin:0;
+	padding:0; 
+}
+body{
+	background: url(../img/Demo_background.png);
+	background-repeat: no-repeat;
+	background-size:100%; 
+	width: auto;
+	height: auto;
+	box-sizing: border-box;
+	position: relative;
+	text-align: block;
+	font-family: "黑体";
+}
+#center_text{
+	position: relative;
+	width: 100%;
+	margin-top: 33% ;
+	left:0px	;
+}
+.input_1{
+   			background-image: url(../img/man.png);
+   			background-size: 5%;
+   			background-position:2vw 2vw ; 
+   			background-repeat: no-repeat; 	
+   		}
+.input_2{
+   			background-image: url(../img/shouji.png);
+   			background-size: 5%;
+   			background-position:2vw 2vw ; 
+   			background-repeat: no-repeat;  
+ 	  }
+ .input_3{
+   			background-image: url(../img/lock.png);
+   			background-size: 5%;
+   			background-position:2vw 2vw ; 
+   			background-repeat: no-repeat; 
+    	}
+   div input{
+	display: block;
+	margin: 3% auto;
+	width: 80%;
+	border-radius: 90px;
+	height: 90px;
+	position: relative;
+	text-align: left;
+	padding-left: 7vw;
+	letter-spacing: 0.125vw;
+	font-size: 48px;
+	font-family:sans-serif;
+	border:1px solid; 
+}
+div img{
+	position: absolute;
+	width:18%;
+	height: 20%;
+	bottom: 4%;
+	right: 10%;
+}
+#p{
+	text-align: center;
+	font-size: 2.6em;
+	color: red;
+	opacity: .65;
+	display: none;
+}
+#center_bottom{
+	position: relative;
+	top: 5%;
+	text-align: center;
+	color: black; 
+	width: 100%;
+}
+label{
+	margin-left:8%; 
+	font-size: 45px;
+}
+label input{
+	width: 45px;
+	height: 45px;
+	
+}}
+label p{
+	font-size:45px;
+}
+a{
+	text-decoration: none;
+	color: #FFAE00;
+
+}
+#Sign_in{
+	margin:10% 15%;
+}

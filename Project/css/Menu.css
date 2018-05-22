@@ -1,0 +1,76 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: url(../img/Menu/Menu_background.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	box-sizing: border-box;
+	position: relative;
+	font-family: "黑体";
+}
+header{
+	margin:26% 6% 23%;
+}
+
+a span{
+	font-size: 55px;
+
+}
+span{
+	position: absolute;
+	bottom: 13%;
+	margin-left: 5%;
+	width: 60%;
+	height: 50%;
+}
+
+p:nth-child(1){
+	float: left;
+}
+p:nth-child(2){
+	float: right;
+}
+section{
+	position: absolute;
+	display: inline;	
+	width: 95%;
+	text-align: center;
+	margin-left:2.5%;
+}
+section img{
+	width: 30%;
+	height:50%;
+}
+
+img:nth-child(2){
+	margin-left:2%;
+}
+img:nth-child(3){
+	margin-left:2%;
+}
+table{
+	position: absolute;
+	margin-top:37%;
+	width: 100%;
+	
+}
+#td1{
+	padding:3% 3% 3% 4%;
+	width: 20px;
+} 
+td img{
+	width: 40px;
+	height: 50px
+}
+a p{
+	font-size: 46px;
+	color: #262626;
+}
+#td2{
+	width: 80%;
+}
+.td2{
+	border-top: 1px #CFCFCF solid;
+}
